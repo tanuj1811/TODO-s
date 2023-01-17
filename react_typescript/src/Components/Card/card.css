@@ -1,0 +1,38 @@
+.todo_card{
+    /* width: 29.5%; */
+    height: auto;
+    background-color: #fff;
+    color: #000;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #000;
+    margin: 1rem;
+    display: flex;
+
+}
+.success {
+    background-color: #00ff00 !important;
+}
+
+.desc {
+    flex: 1;
+    padding: 5px;
+    border: none;
+
+}
+
+.desc:focus{
+    outline: none;
+}
+
+.icon {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .todo_card {
+        width: 100%;
+    }
+}
+
